@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
-  const [currentUserIndex, setCurrentUserIndex] = useState(0);
+  const [currentUserIndex, setCurrentUserIndex] = useState(1);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
